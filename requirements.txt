@@ -1,6 +1,7 @@
 future
-requests==2.21.0
+requests==2.32.4
 paramiko
 pysnmp==4.4.6
 pycryptodome
 urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
